@@ -1,0 +1,185 @@
+Javascript is line by line execution Synchronous way
+
+  https://developer.mozilla.org/en-US/docs/Web/HTML
+
+   Assignment : Profiler page 
+
+  
+   header 
+
+     image => <img />
+     
+      BioData 
+
+   footer 
+
+   Javascript Basics
+
+   1. Javascript variables and data types 
+  --------------------------------------------------------------------
+     what is a variable ?
+	 
+	 -> variable is a named storage for data 
+	 
+	  add to cart , save 
+	 -> Variables are used to store the information
+	 
+	  Rules to follow while declaring the variables 
+	  
+	1. Variable names should contain only letter,digits,symbols($) and _(underscore)
+	2. first character must not be digit
+	
+	   var username;
+	   let username;
+	   const username;
+	   
+	   let username; 
+	   let user_name;
+	   let userName; // camelCase notation 
+	   
+	3. Variable Names should be in Camel Case 
+	
+	   declaring the variable ;
+	   
+	   let $=3;
+	   let my_name;
+	   let _=2;
+	   let 1a=4;
+
+      Variable Names are Case Senstive ;
+	  
+	4. Should not use reserved words 
+        let let=10 //invalid
+		let return=10; //invalid
+
+    Data Types 
+	
+	Strictly typed language means it is sticking into one data type 
+	
+	Javascript is a dynamically typed language it is not bothered what is inside
+	
+	typeof(message) => return the type 
+	
+	10 + 10 = 20
+	
+	10 + "10" = 1010 => concatination 
+
+    1. Number type
+	
+	   let n = 123;
+	   let n = 123.45 ;
+	   
+	2. Big Int 
+	
+	   let n = 354321345678232546789n;
+	   
+	3. String 
+	
+	   let a = "hello";
+	   let b = 'hello';
+	   let c = `hello`; // template string literal 
+	   
+	   let a ;
+	   
+	4. Boolean 
+	    true or false 
+		if( 10 >1 ) {}
+		
+	5. undefined 
+	    let c ; 
+		
+    6. null 
+	   In Javascript null means "reference to non existing object"
+	   
+	7. Object 
+	    All data types like string , number , boolean single values 
+		Objects can hold multiple values
+		
+		let user = {
+		   key : value 
+		}
+	   
+	    let user = {
+		   name : "rakesh",
+           age: 10,
+           id: 123		   
+		}
+		
+		function and Arrays 
+		
+		let fruit = ['apple','orange']; typeof(fruit) => object 
+		
+=======================Objects========================================
+
+        What is an Object ?
+		
+		Objects => Collection of various data types 
+		
+		let user = {
+		    name : "rakesh"
+		}
+
+        How to declare a object?
+		
+		1. let user = new Object(); //Object Constructor 
+		2. let user = {}; 
+		
+		objectName.key => Dot Notation
+		
+		https://nodejs.org/en/download => cmd line => node --version
+		
+		=> node objects.js
+		
+		//dot notation 
+		user.age = 31;
+		
+		delete user.isAdmin 
+		
+		let a = 10;
+		
+		delete a ; // can this be done?
+		
+		delete => Oject property not variable 
+		
+		user = {
+		    first name : "krishna"
+		}
+		
+		In Objects can i use key as a reserved word?
+		
+		Yes 
+		
+		let userDetails = {
+		   const :10,
+		   let: 50,
+		   return: "true"
+		}
+		
+		// For In Loop for Objects
+		
+		--------------------------------------------------------------------------
+		Arrays 
+
+        Collection of elements 
+		
+		let arr = new Array();
+		let arr = [];          [] - Array {} - Object
+		
+		Arrays are used to store ordered collection of data 
+		
+		let fruits = ['apple','banana'];
+		
+		fruit[0];
+		
+		Array Methods :
+		
+		
+		
+		
+
+		
+		
+		
+		   
+
+
