@@ -122,7 +122,7 @@ Javascript is line by line execution Synchronous way
         How to declare a object?
 		
 		1. let user = new Object(); //Object Constructor 
-		2. let user = {}; 
+		2. let user = {};  //Object Literal
 		
 		objectName.key => Dot Notation
 		
@@ -172,6 +172,175 @@ Javascript is line by line execution Synchronous way
 		fruit[0];
 		
 		Array Methods :
+		
+=============================17-01-2024=======================================
+
+          Push and Pop Methods 
+		  
+		  push => add element at the end of an array ,return the length of an array after insertion
+		  pop => remove the element at end of an array , return the element which has  been removed 
+		  
+		  fruits.length 
+		  
+		  length property will not be calculated with No of Items
+		  
+		  but greatest numeric index + 1 as length 
+		  
+		  == and === 
+		  
+		  diff btw == vs === ?
+		  
+		  == value not bothered about the data type 
+		  
+		  === value and data type is compared 
+		  
+		  1 == "1" // type conversion 
+		  
+		  1 === "1" //dont want conversion just check with type 
+		  
+		  How can you make an array empty ?
+		  
+		  fruits.length = 0 ;
+		  
+================================18-01-2024==================================
+
+	Javascript Functions :
+	
+	       1. Functions are main building blocks
+		   2. Allow not to repeat code
+		   
+		function funName(a1 , a2 , a3 ...........an){
+		  ..function body
+		}
+	    funName(p1,p2,...pn); //parameters 
+		
+		NaN => Not an Number 
+		
+		undefined + undefined // NaN 
+		
+--------------------------------------------------------
+		
+		Naming Conventions :
+		
+		var userName;
+		
+		like incomeTax , getUserName , checkTheAge 
+		
+		Function Expressions :
+		
+	    let sum = function(a,b){
+		   return a+b;
+		}
+		sum(12,34);
+		
+		------------------------------------------------------
+		
+		Conditional Statements 
+		
+		if(age > 70 ){
+		
+		       //senior citizen benefit
+			   
+		}else{
+		//some other logic
+		}
+		
+		truthy and falsy values 
+		
+		0 means false 
+		undefined , 0 , NaN , false 
+		
+		Loops => are a way to repeat the same code mutiple times 
+		
+		While and for loops 
+		
+		Initilization , Condition , Increment/Decrement 
+		
+		for(initilization , condition , increment/decrement){
+		
+		}
+		
+		objects we have [for in] 
+		
+		Arrays we have [for of]
+		
+		Objects for..in loop and Arrays for..of loop 
+		
+===============================19-01-2024===================================
+
+      Diff Btw let , var and const 
+	  
+	    In terms of 
+		1. Hoisting
+		2. Scope/Memory
+		3. redeclare/update 
+		
+		Hoisting 
+         
+		 where it moves the variable declaration and function declaration to the top 
+		 of its nearest scope 
+		 
+		 console.log(a);
+         var a = 10;
+	
+         var a;
+         console.log(a);
+         a = 10;		
+
+          var supports hoisting 
+
+          Let and const doesnt support hoisting 
+
+          ES6 let and const were introduced
+
+          let a = 10;
+              a=12; 
+
+          const ORG_NAME = "Ashok IT";
+          const birthYear = 1993;
+          const age = 31; // keeps on changing 
+
+       2. Scope/Memory 
+
+          function level scope and block level scope { visibility }
+		  
+		  why to hold the memory ?
+		  let 
+		  
+		3. 
+		   var supports redeclaration and updation 
+		    
+			let 
+			const no redeclaration / updation 
+			
+			 const fruits = ["Apple","Banana","Plum"];
+
+             fruits[3]="guava"; //possible 
+			 
+			 fruits = ["Apple","Banana","Plum"]; // not possible 
+			 
+			 with let no redeclaration but updation is possible 
+			 
+        Destructuring Objects and Arrays 
+		
+		  how to destructure object and array
+
+          Extract the propert from an object and assign them to variable
+
+          let user = {
+			name : "rakesh",
+			age: 10,
+			id: 123	
+		}
+		var name = user.name;
+		var age = user.age;
+
+		var {name,age,id} = user;		  
+		
+			  
+			  
+          		  
+       
 		
 		
 		

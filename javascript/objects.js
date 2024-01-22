@@ -1,8 +1,12 @@
-// let user = {
-//     name : "rakesh",
-//     age: 10,
-//     id: 123	
-// }
+let user = {
+    name : "rakesh",
+    age: 10,
+    id: 123	
+}
+
+var {name,age,id} = user;
+//var name1 = user.name1;
+console.log(name);
 
 // console.log("user object---",user);
 
