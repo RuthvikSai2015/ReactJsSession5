@@ -43,6 +43,9 @@ const {address : {city,doorNo}} = user; // const adress = user.address const cit
 
 // console.log(city.state, doorNo); 
 
+const {cityName,state,country} = city;
+
+console.log(cityName);
 
 // let [firstName , lastName , middleName] = arr ;
 
@@ -75,6 +78,7 @@ console.log(a,b);
 [ a , b] = [b , a]; // a = b , b = a
 
 console.log(a,b);
+
 
 
 

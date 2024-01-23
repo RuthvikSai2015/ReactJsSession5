@@ -335,7 +335,54 @@ Javascript is line by line execution Synchronous way
 		var name = user.name;
 		var age = user.age;
 
-		var {name,age,id} = user;		  
+		var {name,age,id} = user;	
+
+==========================22-01-2024========================================
+
+        const mobileNumber = user.mobileNumber === undefined ? defaultValue: user.mobileNumber
+
+       Ternary Operator 
+
+       const varName = condition ? "if true this will execute " : "If it is false this will execute "	   
+
+       //Nested objects property names (keys) are not needed 
+	   
+	   const {return} = user; // const return = user.return ; that keys are not reserved words
+         
+       const {address : {city,doorNo}} = user; // 
+	   const adress = user.address const city = user.address.city
+	   
+	   
+
+       console.log(city.state, doorNo);  //  
+	   
+	   Array Destructuring 
+	   
+	   
+	   let arr = ["kumar","shree","123","456","789"];
+
+		// rest operator ...
+
+		let [firstName , lastName , ...x] = arr;
+		
+=====================23-01-2024====================================
+
+     Optional Chaining 
+	 
+	 console.log(user?.address?.city); 
+	 
+	 1. Arrow Functions
+	 2. Map and Filter
+	 3. Debugging of Javascript
+	 
+	 //function declaration 
+	 function funName(a1,a2,....an){
+	    //function body
+	 }
+	 
+	 
+		
+		
 		
 			  
 			  
