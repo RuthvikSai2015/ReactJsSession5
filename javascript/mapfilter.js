@@ -34,6 +34,7 @@ console.log(evenNumbers);
 
 let filterAgeSalary = user.filter((item) =>{
      if(item.age >= 32){
+       // debugger;
         item.salary = item.salary+100;
         return item;
      }
