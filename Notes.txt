@@ -432,11 +432,96 @@ Javascript is line by line execution Synchronous way
 	  node --version 
 	  16 to 20 
 	  
-	  npm -version 
+	  npm --version 
 	  8 to 10 
 	  
 	  npx --version 
 	  8 to 10 
+	  
+==========================30-01-2024=========================================
+      What is React JS?
+	  
+	     React Js is a javscript library used to develop web pages
+		 
+		 Components in react 
+		 
+		 1. Reusability 
+		 2. Identify Bugs
+		 3. Maintaing easy 
+		 
+		 https://react.dev/learn
+	  
+	     npm => Node package manager => used to maintain the dependencies 
+		 npx => node package executable => 
+	  
+	      local server , live reload , babel transpilation => npx 
+		  
+		  npm -g create-react-app project_name 
+		  
+=====================31-01-2024========================
+
+        Browser only understands HTML,CSs and javascript 
+		
+		Code in React Js? 
+		
+		yes Babel is doing that job for me 
+		
+		Babel Transpiler 
+		
+		Webpack => bundle our code => ready to deploy production build 
+		
+		virtual DOM => ReactDom is going to the job of virtual dom 
+		
+		const root = ReactDOM.createRoot(document.getElementById('root'));
+ 
+        ReactDOM.createRoot is a container which keeps all the Components 
+		
+		StrictMode => it is going to warn if we dont follow the rules properly 
+		
+		React js => develop react applications
+		
+		React DOM => inject the changes into Virtual DOM => Web 
+		
+		React Native => Mobile 
+		
+==================================01-02-2024======================
+
+       Naming Conventions
+	    
+		index.js index.css index.test.js
+		Button.js Button.css Button.test.js 
+		
+		JSX => Combination of Javascript and XML 
+		
+		Components in React
+		
+		App.js 
+		
+		<App/> - Camelcase 
+		<div/> - html element 
+		
+		JSX helps us to convert html elements into react components 
+		
+		Q. Without jsx can i write the code?
+		
+		babeljs.io 
+		
+	=> Creating a Component 
+	
+	   Class Components => class 
+	   functional Components => function
+	   
+	   To call a function as a componet it should return jsx
+	   
+	   App.js is a container 
+	   
+	   React Fragment 
+	   
+	   1) import React from 'react'
+	      <React.Fragment> </React.Fragment>
+		  
+	   2) import {Fragment} from 'react' // <Fragment></Fragment> 
+	   3) <> </>
 	 
 	 
 		
