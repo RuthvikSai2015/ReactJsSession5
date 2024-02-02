@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import Welcome from './Welcome';
+import Greeting from './Greeting';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <Welcome/> */}
+      <Greeting name="react js" time="9 PM" age={32} isAdmin={true} array = {[0,1,2,3]} obj = {{name:"savitha",age:28}} showNav/>
+      {/* <Greeting name="Bootstrap" /> */}
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
        
           <Welcome/> 
@@ -24,7 +28,7 @@ function App() {
         >
           Learn React JS Components
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }

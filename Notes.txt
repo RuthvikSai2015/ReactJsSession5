@@ -489,7 +489,7 @@ Javascript is line by line execution Synchronous way
        Naming Conventions
 	    
 		index.js index.css index.test.js
-		Button.js Button.css Button.test.js 
+		Button.js Button.css Button.test.js  button
 		
 		JSX => Combination of Javascript and XML 
 		
@@ -523,6 +523,57 @@ Javascript is line by line execution Synchronous way
 	   2) import {Fragment} from 'react' // <Fragment></Fragment> 
 	   3) <> </>
 	 
+========================02-02-2024=======================================
+        
+		If your writing javascript inside jsx then you should start with {}
+		 {}
+		 
+		package.json => dependencies 
+		
+		devdependenices -- developer wants some flexibility , intendation ,
+		                   formatting code , some plugins
+						   ex: prettier format the code 
+						   
+		=> npm install dependency_name/module 
+		
+		npm install lodash => dependencies 
+		
+		how to mention it as a dev dependency?
+		
+		 npm install --save lodash 
+		 
+		 npm install --save-dev lodash 
+             "devDependencies": {
+				"lodash": "^4.17.21"
+			  }
+         npm i -D lodash 
+		 
+	----------------React Props--------------------------------------
+	
+	  props stand for Properties , this is a special keyword in react 
+	  
+	  function parameters 
+	  
+	  Hello react js
+	  
+	  Hello Kumar 
+	  
+	  Hello radha 
+	  
+	  parent to child communication => react props 
+	  
+	  boolean values are treated as 0 and 1 
+	  
+	  String(boolean) 
+	  
+	  If you pass a property and not value default value will be true 
+	  
+	  1. Props are special keyword of reactjs
+	  2. Without value default is true
+	  3. We can pass any data as props value 
+	  4. We cannot use objects,arrays directly inside the component jsx 
+	  5. when passing numbers, boolean use {}
+	  6. If we are not passing all required props , we will not get any error
 	 
 		
 		
