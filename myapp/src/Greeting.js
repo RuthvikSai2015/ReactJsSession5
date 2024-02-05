@@ -1,18 +1,21 @@
-function Greeting(props) {
-    console.log("props---- " + props.name);
+function Greeting(props){
+  // console.log(props.isLoggedIn);
+  // if(props.isLoggedIn){
+  //  return <UserGreeting/>
+  // }
+  //   return <GuestGreeting/>
+  return (
+    props.isLoggedIn ? <UserGreeting/> : <GuestGreeting/>
+  )
+}
+function GuestGreeting(){
     return (
-        <>        
-            <h2> Hello {props.name}</h2>
-            <h2> {props.time}</h2>
-            <h2> {props.age + 10 }</h2>
-            <h2> {props.array} </h2>
-            <h2> {props.obj.name} </h2>
-            <h2> Admin : {String(props.isAdmin)} </h2>
-            <h2> Show Nav : {props.showNav} </h2>
-        </>
-
+        <h1>  Guest Component</h1>
+    )
+}
+function UserGreeting(){
+    return (
+        <h1> User Component</h1>
     )
 }
 export default Greeting;
-
-//Greeting("reactjs");

@@ -574,7 +574,51 @@ Javascript is line by line execution Synchronous way
 	  4. We cannot use objects,arrays directly inside the component jsx 
 	  5. when passing numbers, boolean use {}
 	  6. If we are not passing all required props , we will not get any error
-	 
+	  
+========================05=02-2024========================================
+
+        const user = { name:'Savitha' , email:'soujanya18@gmail.com'}
+		
+		  const {email,name} =  user ;
+		  
+	  7.Props are readonly 
+	  8. More than 2 props go for destructuring 
+	  9. Parent Component is going to Communicate to child component(one way)
+
+      Conditional Rendering , React Event Handling and Lists
+
+      	CR in short 
+
+       1. CR means ability to render different UI Component based on true or false
+          condition 
+ 		  
+		if(0)  if("user")
+		
+		condition/exp ? "if it is true this part will execute ":"if it is false this part will execute"
+		
+		for situation where there are 2 expected outcomes then go for ternary 
+		
+		for situation there is only one outcome go for logical operator 
+		
+	----------------------------------------------------------------------------
+		React Event Handling 
+		
+		https://www.javatpoint.com/javascript-events
+		
+		<button onclick="buttonClick()">
+		  Button text
+		 </button>
+		 
+		React Events 
+		1. React event names should be in camelCase rather than lowercase
+		2. You should not mention in {} 
+		    onClick = {buttonClicked()}
+		3. We should not mention () while putting the function 
+		
+		why we should not mention ()
+		
+		
+		
 		
 		
 			  
