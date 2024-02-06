@@ -609,6 +609,9 @@ Javascript is line by line execution Synchronous way
 		  Button text
 		 </button>
 		 
+		 <button onClick={buttonClick}>
+		  Button text
+		 </button>
 		React Events 
 		1. React event names should be in camelCase rather than lowercase
 		2. You should not mention in {} 
@@ -616,6 +619,47 @@ Javascript is line by line execution Synchronous way
 		3. We should not mention () while putting the function 
 		
 		why we should not mention ()
+		
+		onClick = {undefined} 
+		
+=======================06-02-2024=====================================
+
+       React List and keys
+	   
+	     1.className instead of class ? 
+		 
+		  class css selector 
+		  .class { //apply styles}
+		  <div class="city"> </div>
+		  
+	We are writing html and javascript in same file and calling it as jsx
+	
+	why cant we use class?
+	
+	   React class components
+	   
+	     className for css 
+		 
+	why lists and keys are important 
+	
+	    [1,2,3,4,5] => [2,4,6,8,10] 
+		
+		we get the warning if we are not using key property 
+		
+		key 
+		
+		uniquely identify an item in list 
+		
+	 <li key={0} > {1} <li>
+	 <li key={1}> {2} </li>
+	 <li key={2} > {3} </li>
+	 <li key={3} > {4} </li>
+	 
+	 Task : https://jsonplaceholder.typicode.com/users
+	 
+	    try to print the user object 
+		
+	 Array of Objects 
 		
 		
 		

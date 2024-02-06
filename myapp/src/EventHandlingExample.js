@@ -3,7 +3,7 @@ function EventHandlingExample(){
         console.log("button clicked");
     }
     return(
-        <button onClick={buttonClicked}>Button Text </button>
+        <button onClick={buttonClicked()}>Button Text </button>
     )
 }
 export default EventHandlingExample;

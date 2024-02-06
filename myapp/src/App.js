@@ -4,6 +4,8 @@ import Welcome from './Welcome';
 import Greeting from './Greeting';
 import Loading from './Loading';
 import EventHandlingExample from './EventHandlingExample';
+import NumbersList  from './NumbersList';
+import ReactLists from './ReactLists';
 
 function App() {
   return (
@@ -11,9 +13,11 @@ function App() {
       {/* <Welcome/> */}
       {/* <Greeting name="react js" time="9 PM" age={32} isAdmin={true} array = {[0,1,2,3]} obj = {{name:"savitha",age:28}} showNav/>
       <Greeting name="react js" time="9 PM" /> */}
-      <Greeting isLoggedIn={false}/>
+      {/* <Greeting isLoggedIn={false}/>
       <Loading isLoading={false}/>
-      <EventHandlingExample/>
+      <EventHandlingExample/> */}
+      <NumbersList numbers={[1,2,3,4,5]}/>
+      <ReactLists/>
       {/* <Greeting name="Bootstrap" /> */}
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
