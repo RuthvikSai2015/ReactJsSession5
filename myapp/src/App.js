@@ -8,6 +8,7 @@ import NumbersList  from './NumbersList';
 import ReactLists from './ReactLists';
 import ClassComponentLife from './ClassComponentLife';
 import ReactUseState from './ReactUseState';
+import ReactUseStateForm from './ReactUseStateForm';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <NumbersList numbers={[1,2,3,4,5]}/>
       <ReactLists/> */}
       {/* <ClassComponentLife/> */}
-      <ReactUseState/>
+      {/* <ReactUseState/> */}
+      <ReactUseStateForm/>
       {/* <Greeting name="Bootstrap" /> */}
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

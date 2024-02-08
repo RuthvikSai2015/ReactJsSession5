@@ -9,7 +9,10 @@ function ReactUseState() {
 
     const [count,setCount] = useState(0); //undefined 
     const handleButtonEvent = () => {
-
+       console.log("clicked");
+       setCount((prevCount) => prevCount + 1); // 0+1 = 1 // => old state preserving 
+       setCount((prevCount) => prevCount + 1); // 1+1 = 2 //old state 
+       console.log(count);
     }
     return (
         <>

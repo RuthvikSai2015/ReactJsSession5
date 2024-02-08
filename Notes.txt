@@ -711,7 +711,54 @@ Javascript is line by line execution Synchronous way
 	
 	Rules 
 	1. The Name of the hook should be started with "use"
+	   why it should be started with use? react diff normal and hooks(use)
+	
+	When we have to modify the data => state => useState
+	
+	const [a,b] = [10,20]  [ 0 , f()]
+	
+	useState => to make components dynamic 
+	
+	useState("initial value of the state or props value")
+	useState(0); 
+	
+	array Reference
+
+======================08-02-2024=========================
+
+     useState 
+
+    1. State Changes 
+         count = count + 1; => wrong way of updation
+		 
+		setCount(count+1);
 		
+    2. whenever you update the state variables , the component will be 
+	   re-rendered again ,if we directly change it , react has no idea to re-render again 
+	   
+	3. State changes are asynchronous and scheduled ,immediately it will not
+	   re-render , it will keep in batch 
+	   
+	   setCount(count + 1); // 0+1 = 1
+       setCount(count + 1); // 1+1 = 2
+	   
+	4. State results with older state value 
+	
+	     setCount((prevCount) => prevCount + 1); // 0+1 = 1 // => old state preserving 
+         setCount((prevCount) => prevCount + 1); 
+		 
+     https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input
+	 
+	 5. Use State changes are not merged , those are replaced 
+	 
+	     preserve the state (...) 
+		 
+	-----------------------------------------------------------------------------
+	
+	    useEffect hook  
+	   
+	
+	   
 		
 		
 		
