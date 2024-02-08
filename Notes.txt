@@ -660,7 +660,57 @@ Javascript is line by line execution Synchronous way
 	    try to print the user object 
 		
 	 Array of Objects 
+	 
+	 Task:
+	      const users = [
+        {id:123,name:"rakesh",email:"rakesh@gmail.com",phone:"8654321"},
+        {id:456,name:"kumar",email:"kumar@gmail.com",phone:"123456"},
+        {id:789,name:"govind",email:"govind@gmail.com",phone:"456789"}
+    ]
+	 
+=============================07-02-2024============================
+
+     React Hooks
+	 
+	 Class Components life cycle methods , state 
+	 
+	 Functional Components => static dislay components 
+	 Class Components => State and life cycle methods
+	 
+	 Component 
+	 Life Cycle Methods :
+	 
+	 function sum(){
+	 
+	 }
+	 sum()
+	 
+	 componentDidMount()
+	 componentDidUpdate()
+	 componentWillUnMount()
+	 
+	 React is going to call this !!!!!!
+	 
+	 3 phases in reactjs class component
+	 
+	 1.Mounting => whenever the component comes into picture
+	 2.Updating => update an action , click whatever
+	 3.UnMounting => clear the resources , close  connections 
+	 
+	 User friendly 
+	 
+	React Hooks 
+	
+	       Functional components to use a state and lifecycle methods and they call them as hooks
 		
+	Hooks are functions that let you "hook into" react features like state
+	and life cycle methods  from functional components 
+	
+	State => useState hook 
+	Life cycle methods => useEffect 
+	
+	Rules 
+	1. The Name of the hook should be started with "use"
 		
 		
 		

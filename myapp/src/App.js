@@ -6,6 +6,8 @@ import Loading from './Loading';
 import EventHandlingExample from './EventHandlingExample';
 import NumbersList  from './NumbersList';
 import ReactLists from './ReactLists';
+import ClassComponentLife from './ClassComponentLife';
+import ReactUseState from './ReactUseState';
 
 function App() {
   return (
@@ -16,8 +18,10 @@ function App() {
       {/* <Greeting isLoggedIn={false}/>
       <Loading isLoading={false}/>
       <EventHandlingExample/> */}
-      <NumbersList numbers={[1,2,3,4,5]}/>
-      <ReactLists/>
+      {/* <NumbersList numbers={[1,2,3,4,5]}/>
+      <ReactLists/> */}
+      {/* <ClassComponentLife/> */}
+      <ReactUseState/>
       {/* <Greeting name="Bootstrap" /> */}
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
