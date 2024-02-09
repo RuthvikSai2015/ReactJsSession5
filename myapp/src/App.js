@@ -9,6 +9,8 @@ import ReactLists from './ReactLists';
 import ClassComponentLife from './ClassComponentLife';
 import ReactUseState from './ReactUseState';
 import ReactUseStateForm from './ReactUseStateForm';
+import UseEffectExample from './UseEffectExample';
+import UseEffectFetch from './UseEffectFetch';
 
 function App() {
   return (
@@ -23,7 +25,9 @@ function App() {
       <ReactLists/> */}
       {/* <ClassComponentLife/> */}
       {/* <ReactUseState/> */}
-      <ReactUseStateForm/>
+      {/* <ReactUseStateForm/> */}
+      {/* <UseEffectExample/> */}
+      <UseEffectFetch/>
       {/* <Greeting name="Bootstrap" /> */}
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
