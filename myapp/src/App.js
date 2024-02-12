@@ -11,6 +11,7 @@ import ReactUseState from './ReactUseState';
 import ReactUseStateForm from './ReactUseStateForm';
 import UseEffectExample from './UseEffectExample';
 import UseEffectFetch from './UseEffectFetch';
+import ErrorHandling from './ErrorHandling';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       {/* <ReactUseState/> */}
       {/* <ReactUseStateForm/> */}
       {/* <UseEffectExample/> */}
-      <UseEffectFetch/>
+      {/* <UseEffectFetch/> */}
+      <ErrorHandling/>
       {/* <Greeting name="Bootstrap" /> */}
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

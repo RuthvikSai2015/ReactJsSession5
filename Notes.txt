@@ -825,10 +825,53 @@ Javascript is line by line execution Synchronous way
  
         https://developer.mozilla.org/en-US/docs/Web/HTTP/Status 
 		
+		https://jsonplaceholder.typicode.com/posts
+		https://jsonplaceholder.typicode.com/users
+		https://jsonplaceholder.typicode.com/todos
 	   
-	    
+	   Task : Conditional Rendering i need to display data dynamically 
 	   
-		
+=================================12-02-2024=================================
+
+    Rules of Hooks when you write your own or custom hook 
+
+    1. Name Should start with "useHookName"
+    2. Hooks should be called a the top level 
+       dont call inside loops,conditions and nested function 
+	   
+	   React ensures that hooks are called in the same order each time component renders
+	   
+	3. Only call hooks from react functions or custom hooks. dont call hooks from
+	   regular javascript functions 
+	   
+	   function regularFunction(){ //regular function 
+	       const [content,setContent] = useState('');
+		   // no render function 
+	   }
+	   function reactFunction(){ //it will inform react to render 
+	       const [content,setContent] = useState('');
+		   return (
+		     <h1> Render </h1>
+		   )
+	   }
+	   
+	   ensures that all state logic in a component is clearly visible 
+	   
+======================React Error Handling=======================================
+
+       React Error Boundary is a third party library 
+	   
+	   npm --save-dev i react-error-boundary
+	   
+	   create a fallbackcomponent 
+	   
+	   children props 
+	   passing data btw parent to child and child to parent 
+	   
+	   
+
+
+	   
 		
 		
 			  
