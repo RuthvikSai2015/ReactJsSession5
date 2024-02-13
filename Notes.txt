@@ -865,8 +865,26 @@ Javascript is line by line execution Synchronous way
 	   
 	   create a fallbackcomponent 
 	   
-	   children props 
-	   passing data btw parent to child and child to parent 
+====================13-02-2024=========================================
+
+       1.children props 
+	   2.diff between default export and named export 
+	   3.passing data btw parent to child and child to parent 
+	   
+	 In each js file you can have only one default export 
+	  
+	 Children Props 
+
+         <ReactChildrenProps>  Content  <ReactChildrenProps/>	 
+            parent             children 
+			
+	 we can even pass component as children also 
+	 
+	 Parent to child => props
+	 Child to Parent => Events 
+	 
+	 https://github.com/RuthvikSai2015/ReactJsSession5
+      
 	   
 	   
 

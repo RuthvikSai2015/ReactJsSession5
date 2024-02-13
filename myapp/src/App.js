@@ -11,7 +11,9 @@ import ReactUseState from './ReactUseState';
 import ReactUseStateForm from './ReactUseStateForm';
 import UseEffectExample from './UseEffectExample';
 import UseEffectFetch from './UseEffectFetch';
-import ErrorHandling from './ErrorHandling';
+import ErrorHandling, { Footer } from './ErrorHandling';
+import ReactChildrenProps from './ReactChildrenProps';
+import ReactParentChild from './ReactParentChild';
 
 function App() {
   return (
@@ -29,7 +31,14 @@ function App() {
       {/* <ReactUseStateForm/> */}
       {/* <UseEffectExample/> */}
       {/* <UseEffectFetch/> */}
-      <ErrorHandling/>
+      {/* <ErrorHandling/> */}
+      {/* <ReactChildrenProps>
+              <p> This is the children component</p>
+              <p> This is the children1 component</p>
+              <p> This is the children2 component</p>
+        </ReactChildrenProps> */}
+        <ReactParentChild/>
+      {/* <Footer/> */}
       {/* <Greeting name="Bootstrap" /> */}
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
