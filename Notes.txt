@@ -884,6 +884,49 @@ Javascript is line by line execution Synchronous way
 	 Child to Parent => Events 
 	 
 	 https://github.com/RuthvikSai2015/ReactJsSession5
+	 
+=========================14-02-2024=======================================
+
+      Css classes are refered as className
+	  
+	  style="backgroundcolor:blue"
+	  
+	  style={{backgroundColor:'blue'}}
+	  
+	  {(first)} => using js in jsx 
+	  
+	  {(second)} => key value object 
+	  
+	  {
+	  
+	     background-color  // invalid
+	  }
+	  
+	  background-color  => backgroundColor in react 
+	  
+	  React Router
+	  ---------------------------------------
+	  
+	  React Router Dom 
+	  
+	 npm i react-router-dom
+	   
+	    embed the container in Browser Router 
+		
+	 we have route to define the each route of application 
+	 
+	   1. Path (/guides)
+	   2. which component element {}
+	   
+       <Route path="/" element={Home} /> 
+	   
+	   * => other than all available routes please render NotFound
+	   
+	   On Click routes 
+	   
+	   <Link> in react on click routes 
+	   
+	   Task: Notfound component include image 
       
 	   
 	   

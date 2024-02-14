@@ -14,6 +14,9 @@ import UseEffectFetch from './UseEffectFetch';
 import ErrorHandling, { Footer } from './ErrorHandling';
 import ReactChildrenProps from './ReactChildrenProps';
 import ReactParentChild from './ReactParentChild';
+import ColorCard from './ColorCard';
+import ColorContainer from './ColorContainer';
+import ReactRouterExample from './ReactRouterExample';
 
 function App() {
   return (
@@ -37,7 +40,12 @@ function App() {
               <p> This is the children1 component</p>
               <p> This is the children2 component</p>
         </ReactChildrenProps> */}
-        <ReactParentChild/>
+        {/* <ReactParentChild/> */}
+        {/* <ColorCard title="React" color="green"/>
+        <ColorCard title="Js" color="yellow"/>
+        <ColorCard title="Html5" color="blue"/> */}
+        {/* <ColorContainer/> */}
+        <ReactRouterExample/>
       {/* <Footer/> */}
       {/* <Greeting name="Bootstrap" /> */}
       {/* <header className="App-header">
