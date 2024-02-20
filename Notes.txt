@@ -927,10 +927,55 @@ Javascript is line by line execution Synchronous way
 	   <Link> in react on click routes 
 	   
 	   Task: Notfound component include image 
-      
 	   
-	   
+================15-02-2024========================================
 
+      <button onClick={} > Go Back to Home </button>
+      
+	   useNavigate 
+	   
+	   perform the navigation actions with better compatibility
+	   
+	   Nested Routing :id
+	   
+	   /posts/id
+	   
+	   dynamic data from url => useParams() => hook for getting url parameters
+	   
+	   const {id} = useParams();
+	   
+	   Outlet => it acts as a place holder for nested component 
+
+=========================20-02-2024==========================================
+
+     CSS Grid and CSS Flex box 
+
+     Layouts 
+
+      make use of css 
+
+       Grid - layout structure 
+
+       Flex : align the items inside project 
+
+      grid-template-rows: 80px 1fr 70px
+
+      row header => 80px  footer => 70px 1fr => remaining space 
+
+      80px(1 row) 1fr(2 row) 70px(3 row)
+	  
+	  grid-template-areas : "header header header"
+	                        "nav article section"
+							"nav footer footer";
+				
+    Practise Session				
+	Task: React Components independent component 
+	
+	https://css-tricks.com/
+	
+	
+	  
+        
 
 	   
 		

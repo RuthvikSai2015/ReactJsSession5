@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid Layout</title>
+    <style>
+        header,footer,article,aside,section,nav{
+            padding:1.2rem;
+            background-color: gold;
+        }
+        body{
+           display:grid;
+           grid-template-rows: 80px 1fr 70px;
+           grid-template-columns: 20% 1fr 15%;
+           grid-template-areas : "nav header header"
+	                             "nav article section"
+							     "nav footer footer";
+           height:100vh;
+           grid-row-gap:10px;
+           grid-column-gap:10px;
+        }
+        #page-header{
+              grid-area:header;
+              border:3px solid green;
+        }
+        #main-article{
+            grid-area:article;
+            border:3px solid brown;
+        }
+        #nav-bar{
+            grid-area:nav;
+            border:3px solid blue;
+        }
+        #side-bar{
+            grid-area:section;
+            border:3px solid purple;
+        }
+        #footer{
+            grid-area:footer;
+            border:3px solid orange;
+        }
+    </style>
+</head>
+<body>
+   <header id="page-header"> Header </header>
+   <article id="main-article">Main</article>
+   <nav id="nav-bar">NavBar</nav>
+   <section id="side-bar">SideBar </section>
+   <footer id="footer">Footer</footer>
+</body>
+</html>
