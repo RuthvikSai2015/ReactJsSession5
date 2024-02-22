@@ -17,6 +17,8 @@ import ReactParentChild from './ReactParentChild';
 import ColorCard from './ColorCard';
 import ColorContainer from './ColorContainer';
 import ReactRouterExample from './ReactRouterExample';
+import ReactFormExample from './ReactFormExample';
+import FormikYup from './FormikYup';
 
 function App() {
   return (
@@ -45,7 +47,9 @@ function App() {
         <ColorCard title="Js" color="yellow"/>
         <ColorCard title="Html5" color="blue"/> */}
         {/* <ColorContainer/> */}
-        <ReactRouterExample/>
+        {/* <ReactRouterExample/> */}
+        {/* <ReactFormExample/> */}
+        <FormikYup/>
       {/* <Footer/> */}
       {/* <Greeting name="Bootstrap" /> */}
       {/* <header className="App-header">

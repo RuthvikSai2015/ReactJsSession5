@@ -970,8 +970,43 @@ Javascript is line by line execution Synchronous way
 				
     Practise Session				
 	Task: React Components independent component 
+
 	
 	https://css-tricks.com/
+	
+	Task : left image then search bar , right any options
+	
+	npm i react-bootstrap
+	
+	https://react-bootstrap.github.io/
+	
+	
+============================21-02-2024===============================
+
+      React Forms 
+	  
+	  1. Plain React Part , add forms , add checkboxes
+	  2. Formik and Yup Library 
+	
+	   Regular Expressions to validate given input is valid or not 
+	   
+	   Task: extend the code for password validation 
+	   
+=============================22-02-2024====================================
+
+      Formik is a small library which helps 
+	  
+	  1. getting values in and out from formik
+	  2. Validation and error messages(Yup schema)
+	  3. Handling form submission 
+	  
+	  npm install formik yup 
+	   
+	   rendered properties concept 
+	   
+	   Task: implement disable button in plain react 
+	 
+	
 	
 	
 	  
