@@ -1004,8 +1004,50 @@ Javascript is line by line execution Synchronous way
 	   
 	   rendered properties concept 
 	   
+	   www.formik.org
+	   
+	   https://www.npmjs.com/package/yup 
+	   
 	   Task: implement disable button in plain react 
+	   
+=================================23-02-2024====================================
+
+      React Context 
+	  
+	  React Context allows us to pass data down to any component without props
+	  
+	  React context allows us to share the data across our components easily 
+	  
+	  App => Header => Login 
+	  
+	  context => store here and retrieve
+	  
+	  Task: pass an object or array from provider to consumer and access
+	  
+	  Usecases of react Context
+
+      1. If you wnat to store some user data throughout the component 
+      2. Thyme data (light or dark)
+      3. Authentication 
+
+       React Developer Tools
+	   
+==========================================================================
+	   
+	   
+	   React Integration 
+	   
+	   Node js(express)
+	   
+	   npx express-generator api
 	 
+	 
+	 1. you need to modify the port for react js
+	 2. you need to modify the port for nodejs
+	 
+	 CORS issue means cross origin issue 
+	 
+	 npm i -S cors
 	
 	
 	

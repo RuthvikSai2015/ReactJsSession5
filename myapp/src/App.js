@@ -19,6 +19,7 @@ import ColorContainer from './ColorContainer';
 import ReactRouterExample from './ReactRouterExample';
 import ReactFormExample from './ReactFormExample';
 import FormikYup from './FormikYup';
+import ReactContextExample from './ReactContextExample';
 
 function App() {
   return (
@@ -49,7 +50,8 @@ function App() {
         {/* <ColorContainer/> */}
         {/* <ReactRouterExample/> */}
         {/* <ReactFormExample/> */}
-        <FormikYup/>
+        {/* <FormikYup/> */}
+        <ReactContextExample/>
       {/* <Footer/> */}
       {/* <Greeting name="Bootstrap" /> */}
       {/* <header className="App-header">
