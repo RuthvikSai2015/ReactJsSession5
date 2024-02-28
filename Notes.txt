@@ -1049,10 +1049,85 @@ Javascript is line by line execution Synchronous way
 	 
 	 npm i -S cors
 	
-	
-	
+=====================26-02-2024==========================================
+
+       Redux 
+	   
+	     1. Redux is a design pattern (solution to common problem)
+		 
+		 problem =? 
+		 
+		 context API 
+		 
+		 2. why Redux?
+		     If the application is large and maintain state => redux 
+			 
+	     3. Redux helps us to maintain state management in application 
+		 
+		Redux keeps some rukes
+		
+	  1. Frequent update no context api
+	  2. Frequent state update and then we can go for redux 
 	  
-        
+	  npm i redux react-redux @reduxjs/toolkit
+	  
+	    redux => design pattern
+		
+		
+=======================================27-02-2024==================
+
+       extensions => Spring Boot dashboard 
+	   
+	   Spring Boot dashboard , Extension pack for java 
+		
+	1. Java https://www.oracle.com/java/technologies/downloads/#jdk20-windows
+	
+	   java --version
+		 
+		Created a Controller 
+		
+		 RestController
+		 Cross Origin 
+		 
+===================================28-02-2024======================
+
+        Deploy React Application in Cloud
+		 
+	  firebase
+	  netify
+	  github
+	  
+	  Firebase 
+	  1. hosting
+	  2. Login Mechanism
+	  3. Database
+	
+	 1.Console.firebase.google.com https://console.firebase.google.com/u/0/
+	 
+	 2. Create a project in the firebase
+	 
+	 3. Hosting install the firebase tools
+	 
+	   We need production ready code 
+	   
+	   npm run build 
+	   
+	   npm install -g serve
+	   
+	   serve -s build 
+	   
+	 4.firebase Login
+	 5. firebase init
+	  Hosting 
+	    use an existing project 
+		
+       => react-hosting-feb
+       => build
+	   
+	   https://react-hosting-feb.web.app
+	   
+	   savi.ruthvik@gmail.com
+      	   
 
 	   
 		

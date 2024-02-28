@@ -4,14 +4,14 @@ import { useEffect, useState } from 'react';
 
 function App() {
   const [content,setContent] = useState("");
-  useEffect(() => {
-    fetch('http://localhost:3001/testAPI')
-    .then(res => res.text())
-    .then(response => setContent(response));
-  },[]);
+  // useEffect(() => {
+  //   fetch('http://localhost:3001/testAPI')
+  //   .then(res => res.text())
+  //   .then(response => setContent(response));
+  // },[]);
   return (
     <div className="App">
-      {content}
+  
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
